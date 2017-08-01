@@ -21,19 +21,27 @@
 li{
   display: inline;
   float: right;
-  padding: 8px;
+  line-height: 9px;
+  padding: 10px 13px;
   color: inherit;
 }
 
 a:link{
-  font-size: 12px;
-  font-family: serif;
+  height:8px:
+  font-size: 6px;
+  font-family: arial, sans-serif;
   text-decoration: none;
   color: gray;
 }
 
 a:hover{
   font-size: 12px;
-  font-family: serif;
+  font-family: arial, sans-serif;
+  text-decoration: underline;
   color: black;
+}
+
+#bluebox{
+  border-style: hidden;
+  background-color: blue;
 }
