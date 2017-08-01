@@ -17,3 +17,23 @@
   bottom: 350px;
   left: 100px;
 }
+
+li{
+  display: inline;
+  float: right;
+  padding: 8px;
+  color: inherit;
+}
+
+a:link{
+  font-size: 12px;
+  font-family: serif;
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover{
+  font-size: 12px;
+  font-family: serif;
+  color: black;
+}
