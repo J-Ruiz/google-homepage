@@ -1,2 +1,51 @@
 *{
   box-sizing: border-box;
+}
+
+Div.logo{
+margin: auto;
+text-align: center;
+position: relative;
+top: 8.0em;
+}
+
+Div.search{
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 21.0em;
+}
+
+#searchbar{
+  min-width: 38%;
+  min-height: 3.0em;
+}
+
+Div.gbutton{
+  margin: 0 auto;
+  padding-top: -2.0em;
+  text-align: center;
+  position: relative;
+  top: 23.0em;
+  right: 5.0em;
+}
+
+Div.lbutton{
+  margin: 0 auto;
+  padding-top: -2.0em;
+  text-align: center;
+  position: relative;
+  top: 21.2em;
+  left: 4.0em;
+
+}
+
+Div.topnav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+Div.topnav li{
+  display: inline;
+}
