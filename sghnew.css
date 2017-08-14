@@ -19,9 +19,10 @@ Div.search{
 #searchbar{
   min-width: 38%;
   min-height: 3.0em;
+  border-style: solid;
 }
 
-Div.gbutton{
+Div.GoogleSearch{
   margin: 0 auto;
   padding-top: -2.0em;
   text-align: center;
@@ -30,14 +31,41 @@ Div.gbutton{
   right: 5.0em;
 }
 
-Div.lbutton{
+#gbutton{
+  color: grey;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  width: 7%;
+  height: 3.0em;
+  border-style: solid;
+}
+
+Div.Lucky{
   margin: 0 auto;
   padding-top: -2.0em;
   text-align: center;
   position: relative;
-  top: 21.2em;
+  top: 20.55em;
   left: 4.0em;
+}
 
+#lbutton{
+  color: grey;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  width: 8%;
+  height: 3.0em;
+  border-style: solid;
+}
+
+Div.topnav{
+  margin: 0 auto;
+  text-align: right;
+  position: relative;
+  top: -12.0em;
+  left: -1.0em;
 }
 
 Div.topnav ul{
@@ -48,4 +76,100 @@ Div.topnav ul{
 
 Div.topnav li{
   display: inline;
+  float: right;
+  padding: 0.6em 0.9em;
+  font-family: arial, sans-serif;
+  font-size: 0.8em;
+}
+
+Div.topnav a:link {
+  text-decoration: none;
+  color: black;
+}
+
+Div.topnav a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+#bluebox{
+  border-style: hidden;
+  background-color: skyblue;
+  padding: 0.55em 1.0em;
+  border-radius: 3%;
+  font-weight: bold;
+  color: white;
+}
+
+
+Div.bnavright{
+  position: relative;
+  float: right;
+  top: 37.0em;
+  left: 16.0em;
+}
+
+Div.bnavright ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+Div.bnavright li {
+  display: inline;
+  padding: 0.6em 0.9em;
+  font-size: 1.0em;
+  font-family: arial, sans-serif;
+}
+
+Div.bnavright a:link {
+  text-decoration: none;
+  color: black;
+}
+
+Div.bnavright a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+Div.bnavleft{
+  position: relative;
+  float: left;
+  top: 37.0em;
+  left: 0.7em;
+
+}
+
+Div.bnavleft ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+Div.bnavleft li {
+  display: inline;
+  padding: 0.6em 0.9em;
+  font-size: 1.0em;
+  font-family: arial, sans-serif;
+}
+
+Div.bnavleft a:link {
+  text-decoration: none;
+  color: black;
+}
+
+Div.bnavleft a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+Div.footer{
+  position: absolute;
+  background-color: #f2f2f2;
+  width: 115%;
+  left: -2.0em;
+  height: 2.2em;
+  top: 50.5em;
 }
